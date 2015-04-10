@@ -1,5 +1,4 @@
 class CreditCheck
-
   def self.number_to_integer(card_number)
     card_number.reverse.chars.map {|num| num.to_i}
   end
